@@ -1,6 +1,6 @@
 const chai = require("chai");
 const expect = chai.expect;
-const { isFive, isOdd, myRange } = require("../funcs");
+const { isFive, isOdd, myRange } = require("../funcs/index");
 
 describe("isFive(num)", () => {
   it("should return true if the num is 5 otherwise false", () => {
